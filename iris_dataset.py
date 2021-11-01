@@ -32,7 +32,7 @@ sv.fit(x_train,y_train)
 y_pred=sv.predict(x_test)
 acc=round(accuracy_score(y_pred,y_test),2)*100
 print('Support vector classification accuracy is : ',acc)
-
+  
 #decison tree classifier
 tree=DecisionTreeClassifier(random_state=0)
 tree.fit(x_train,y_train)
